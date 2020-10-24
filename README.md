@@ -22,7 +22,7 @@ In meeting the minimum viable product (MVP) specifications listed below, your pr
 
 ### Commits
 
-Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as the evaluate your solution.
+Commit your code regularly and meaningfully. This helps both you (in case you ever need to return to old code for any number of reasons) and your team lead as they evaluate your solution.
 
 ## Interview Questions
 
@@ -30,11 +30,19 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+`React JS is a front-end JavaScript library used for building User Interfaces and User Interface Components. React solves the problem of having to use Vanilla JS to select elements, classes, ids and etc in order to append it to elements manually. It introduces JSX which allows you to use HTML code inside of JS.`
+
 1. Describe component state.
+
+`State that is managed inside of the component.`
 
 1. Describe props.
 
+`Props, short for properties, is a JavaScript object argument that gets passed into components. They are read-only data.`
+
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+`A side effect is anything that affects data outside of its excecuted function's scope. Effects in a React component can be synced through the use of the useEffect() hook for changes in state or props.`
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -42,15 +50,15 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Run `npm install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: `git push origin <firstName-lastName>`
+- [x] Create a forked copy of this project
+- [-] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [x] Run `npm install` to retrieve all needed dependencies.
+- [x] Once you have installed the _node_modules_, run `npm start` to get your server up and running.
+- [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: `git push origin <firstName-lastName>`
 
 ### Task 2: Project Requirements
 
